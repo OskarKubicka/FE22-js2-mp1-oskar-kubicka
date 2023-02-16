@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Sigmar One, sans-serif;
+    color: hsl(264, 95%, 30%);
+    background-color: hsl(133, 53%, 59%);
+}
+
+#div1 {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+
+
+
+#img-sten {
+    width: 100px;
+    margin: 20px;
+    align-self: center;
+
+}
+
+#img-sax {
+    width: 100px;
+    margin: 20px;
+    align-self: center;
+
+}
+
+#img-pase {
+    width: 60px;
+    margin: 20px;
+    align-self: center;
+}
+
+
+#img-sten-hide2 {
+    width: 100px;
+    margin: 20px;
+    align-self: center;
+    display: none;
+}
+
+#img-sax-hide2 {
+    width: 100px;
+    margin: 20px;
+    align-self: center;
+    display: none;
+}
+
+#img-pase-hide2 {
+    width: 60px;
+    margin: 20px;
+    display: none;
+    align-self: center;
+}
+
+#spelarpoint {
+    color: hsl(0, 0%, 100%);
+    position: absolute;
+    right: 150px;
+    top: 200px;
+    font-size: 50px;
+}
+
+#datorval {
+    color: hsl(8, 94%, 36%);
+
+}
+
+#player-name-button {
+    width: 10vw;
+    margin: 5px;
+    height: 10vh;
+    align-self: center;
+    background-color: hsl(0, 0%, 100%);
+    border: solid 4px hsl(264, 95%, 30%);
+    border-radius: 5px;
+    font-family: Sigmar One, sans-serif;
+}
+
+#input {
+    margin: 20px 0 20px 0;
+    width: 20vw;
+    border: hsl(264, 95%, 30%) solid 4px;
+    border-radius: 5px;
+    font-family: Sigmar One, sans-serif;
+    font-size: xx-large;
+}
+
+#player-name-h1 {
+    text-align: center;
+}
+
+#spelarval {
+    position: absolute;
+    top: 430px;
+    right: 23vw;
+    color: white;
+}
+
+#valet {
+    border: solid 5px hsl(150, 60%, 40%);
+    margin: 0 30vw 0 30vw;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: -17vw;
+    top: 490px;
+    width: 25vw;
+    height: 20vh;
+}
+
+
+#titel {
+    color: hsl(320, 100%, 30%);
+    align-self: center;
+    font-size: 60px;
+}
+
+#spelar-bilder {
+    display: flex;
+    justify-content: center;
+
+}
+
+#dator-bilder {
+    align-self: center;
+    display: flex;
+    font-size: x-large;
+    position: absolute;
+    left: 7vw;
+    top: 520px;
+
+}
+
+#scoreboard {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    display: flex;
+    flex-flow: column nowrap;
+    border: hsl(320, 100%, 30%) 5px solid;
+    width: 16vw;
+    border-radius: 15px;
+}
+
+#scoreboard p {
+    width: 200px;
+    align-self: center;
+    text-align: center;
+    font-size: larger;
+
+}
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+#spelarpoint {
+    text-align: center;
+}
+
+#explain {
+    position: absolute;
+    top: 420px;
+    left: 43vw;
+    font-size: 45px;
+}
